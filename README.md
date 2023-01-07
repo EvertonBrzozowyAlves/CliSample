@@ -1,5 +1,3 @@
-# README
-
 Sample CLI tool using [CommandLineUtils](https://natemcmaster.github.io/CommandLineUtils/).  
 
 ## SETUP
@@ -26,7 +24,7 @@ dotnet pack
 ```
 > It will create a .nupkg file in the csproj specified folder
 
-3. To instal it globally:
+3. To install it globally:
 ```bash
 dotnet tool install --global --add-source ./nupkg CliSample
 ```
